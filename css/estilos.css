@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0%;
+    font-family: 'Oswald', sans-serif;
+}
+
+body{
+    height: 100vh;
+    width: 100%;
+    margin-top: 8%;
+
+}
+
+/*.containerGrid{
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 10% auto 10%;
+    grid-template-rows: 0,1fr 1fr 0.5fr auto;
+    grid-template-areas:"nav header header"
+                        "nav main aside"
+                        "nav footer footer";
+}
+*/
+
+.fondo{
+    background:linear-gradient(to right,rgba(0, 0, 0, 0.642),rgba(0, 0, 0, 0.642)),  url("../assets/img/IMG-20190706-WA0064.jpg");
+    background-size: auto;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+.fondoContacto{
+        background:linear-gradient(to right,rgba(0, 0, 0, 0.642),rgba(0, 0, 0, 0.642)),  url("../assets/img/messi\ fms.jpg");
+        object-fit: cover;     
+        background-repeat: no-repeat;
+        background-position:top;
+        background-size: 150vh;
+    }
+
+
+.header{
+    display: flex;
+    justify-content: space-between; /*uno en cada punta*/    
+    background-color:rgba(33, 34, 33, 0.39);
+
+}
+
+.contenedorTitulo{
+    color: black;
+    background-color: whitesmoke;
+}
+
+.containerHistoria{
+text-align: start;
+display: flex;
+margin: 50px;
+}
+
+.logos{
+    margin: 10px;
+}
+.navegacion{
+    display:flex;
+    background-color:rgba(33, 34, 33, 0);
+    list-style: none;
+    text-decoration: none;
+}
+
+.linkNav{
+    list-style: none;
+    text-decoration: none;
+    color: black;
+    font-size: 23px;
+    background-color: whitesmoke;
+}
+
+.linkNav2{
+    list-style: none;
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 20px;
+    margin: 10px;
+}
+
+.navegacion ul li{
+    line-height: 40px;
+    list-style: none;
+    text-decoration: none;
+}
+
+.main{
+        /*background-color: rgb(196, 34, 34);*/
+        font-size: 20px;
+        color: whitesmoke;
+        text-align: center;
+}
+
+.mainGaleria{
+    width: 100%;
+    color: whitesmoke;
+    grid-area: main;
+    text-align: center;
+}
+
+.carousel{
+    width: 80vh;
+}
+
+.mainContacto{
+    /*background-color: rgb(196, 34, 34);*/
+    font-size: 20px;
+    color: white;
+    grid-area: main;
+    height: 100vh;
+}
+
+.titulosContacto{
+    color:whitesmoke;
+}
+
+.aside{
+    background-color: rgb(216, 167, 34);
+}
+
+.footer{
+    background-color:rgba(85, 84, 84, 0.404);
+    list-style: none;
+    margin: 0px;
+    display: flex;
+}
+@media (min-width: 768px) {
+    .navegacion{
+        display:inline;
+        background-color:rgba(33, 34, 33, 0);
+        list-style: none;
+        text-decoration: none;
+    }
+
+}
+/*
+@media screen and (max-width: 768px) {
+    .containerGrid{
+    grid-template-columns: auto;
+    grid-template-rows: repeat(5,auto);
+    grid-template-areas:"header"
+                        "nav"
+                        "main"
+                        "aside"
+                        "footer";
+
+    }
+
+.navegacion ul li{
+        display:inline;
+    }
+    
+}
+*/
