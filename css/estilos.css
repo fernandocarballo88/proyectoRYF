@@ -8,7 +8,7 @@
 body{
     height: 100vh;
     width: 100%;
-    margin-top: 8%;
+    margin-top: 15%;
 
 }
 
@@ -131,14 +131,13 @@ margin: 50px;
     margin: 0px;
     display: flex;
 }
-@media (min-width: 768px) {
-    .navegacion{
-        display:inline;
-        background-color:rgba(33, 34, 33, 0);
-        list-style: none;
-        text-decoration: none;
-    }
-
+@media (max-width: 768px) {
+        .navegacion ul li{
+            display: inline;
+            line-height: 40px;
+            list-style: none;
+            text-decoration: none;
+        }
 }
 /*
 @media screen and (max-width: 768px) {
