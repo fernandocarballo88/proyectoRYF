@@ -1,0 +1,39 @@
+.navegacion{
+    display:flex;
+    line-height: 40px;
+    background-color:rgba(33, 34, 33, 0);
+    list-style: none;
+    text-decoration: none;
+    .linkNav{
+        list-style: map-get($estilos, estilolista);
+        text-decoration: none;
+        color: black;
+        font-size: 23px;
+        background-color: map-get($estilos, colorLetra);
+    }
+}
+
+/*.linkNav{
+    list-style: $estilolista;
+    text-decoration: none;
+    color: black;
+    font-size: 23px;
+    background-color: $colorLetra;
+}*/
+
+
+
+.navegacion ul li{
+    list-style: none;
+    text-decoration: none;
+}
+
+@media (max-width: 768px) {
+    .navegacion ul li{
+        display: inline;
+        line-height: 40px;
+        list-style: none;
+        text-decoration: none;
+    }
+
+}

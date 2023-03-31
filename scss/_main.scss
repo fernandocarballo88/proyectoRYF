@@ -1,0 +1,21 @@
+.main{
+    /*background-color: rgb(196, 34, 34);*/
+    font-size: 20px;
+    color: map-get($estilos, colorLetra);
+    text-align: center;
+}
+
+.mainGaleria{
+width: 100%;
+color: map-get($estilos, colorLetra);
+grid-area: main;
+text-align: center;
+}
+.mainContacto{
+    /*background-color: rgb(196, 34, 34);*/
+    font-size: 20px;
+    color: map-get($estilos, colorLetra);
+    grid-area: main;
+    height: 100vh;
+}
+

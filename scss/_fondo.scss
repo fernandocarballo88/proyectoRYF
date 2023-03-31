@@ -1,0 +1,16 @@
+.fondo{
+    background:linear-gradient(to right,rgba(0, 0, 0, 0.642),rgba(0, 0, 0, 0.642)),  url("../assets/img/IMG-20190706-WA0064.jpg");
+    background-size: auto;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+.fondoContacto{
+        background:linear-gradient(to right,rgba(0, 0, 0, 0.642),rgba(0, 0, 0, 0.642)),  url("../assets/img/messi\ fms.jpg");
+        object-fit: cover;     
+        background-repeat: no-repeat;
+        background-position:top;
+        background-size: 150vh;
+    }

@@ -1,0 +1,10 @@
+.header{
+    @include flexible(flex,space-between);
+}
+
+/*.header{
+    display: flex;
+    justify-content: space-between;  
+    background-color:rgba(33, 34, 33, 0.39);
+
+}*/

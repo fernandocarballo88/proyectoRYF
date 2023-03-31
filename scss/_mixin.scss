@@ -1,0 +1,13 @@
+@mixin flexible($display-header,$justify-header){
+background-color:rgba(33, 34, 33, 0.39);
+display:$display-header;
+justify-content:$justify-header;
+}
+
+
+
+/*.header{
+    display: flex;
+    justify-content: space-between; /*uno en cada punta 
+    background-color:rgba(33, 34, 33, 0.39);
+}*/

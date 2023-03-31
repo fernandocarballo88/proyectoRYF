@@ -1,0 +1,150 @@
+/*.header{
+    display: flex;
+    justify-content: space-between; /*uno en cada punta 
+    background-color:rgba(33, 34, 33, 0.39);
+}*/
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0%;
+  font-family: "Oswald", sans-serif;
+}
+
+body {
+  height: 100vh;
+  width: 100%;
+  margin-top: 10%;
+}
+
+@media (max-width: 768px) {
+  body {
+    height: 100vh;
+    width: 100%;
+    margin-top: 20%;
+  }
+}
+.header {
+  background-color: rgba(33, 34, 33, 0.39);
+  display: flex;
+  justify-content: space-between;
+}
+
+/*.header{
+    display: flex;
+    justify-content: space-between;  
+    background-color:rgba(33, 34, 33, 0.39);
+
+}*/
+.main {
+  /*background-color: rgb(196, 34, 34);*/
+  font-size: 20px;
+  color: whitesmoke;
+  text-align: center;
+}
+
+.mainGaleria {
+  width: 100%;
+  color: whitesmoke;
+  grid-area: main;
+  text-align: center;
+}
+
+.mainContacto {
+  /*background-color: rgb(196, 34, 34);*/
+  font-size: 20px;
+  color: whitesmoke;
+  grid-area: main;
+  height: 100vh;
+}
+
+.navegacion {
+  display: flex;
+  line-height: 40px;
+  background-color: rgba(33, 34, 33, 0);
+  list-style: none;
+  text-decoration: none;
+}
+.navegacion .linkNav, .navegacion .footer .linkNav2, .footer .navegacion .linkNav2 {
+  list-style: none;
+  text-decoration: none;
+  color: black;
+  font-size: 23px;
+  background-color: whitesmoke;
+}
+
+/*.linkNav{
+    list-style: $estilolista;
+    text-decoration: none;
+    color: black;
+    font-size: 23px;
+    background-color: $colorLetra;
+}*/
+.navegacion ul li {
+  list-style: none;
+  text-decoration: none;
+}
+
+@media (max-width: 768px) {
+  .navegacion ul li {
+    display: inline;
+    line-height: 40px;
+    list-style: none;
+    text-decoration: none;
+  }
+}
+.footer {
+  background-color: rgba(85, 84, 84, 0.404);
+  list-style: none;
+  margin: 0px;
+  display: flex;
+}
+.footer .linkNav2 {
+  color: whitesmoke;
+  text-decoration: none;
+  font-size: 20px;
+  margin: 10px;
+}
+
+.fondo {
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.642), rgba(0, 0, 0, 0.642)), url("../assets/img/IMG-20190706-WA0064.jpg");
+  background-size: auto;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.fondoContacto {
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.642), rgba(0, 0, 0, 0.642)), url("../assets/img/messi fms.jpg");
+  -o-object-fit: cover;
+     object-fit: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: 150vh;
+}
+
+.contenedorTitulo {
+  color: black;
+  background-color: whitesmoke;
+}
+
+.titulosContacto {
+  color: whitesmoke;
+}
+
+.carousel {
+  width: 80vh;
+}
+
+.containerHistoria {
+  text-align: start;
+  display: flex;
+  margin: 50px;
+}
+
+.logos {
+  margin: 10px;
+}
+
+.aside {
+  background-color: rgb(216, 167, 34);
+}/*# sourceMappingURL=estilos.css.map */
