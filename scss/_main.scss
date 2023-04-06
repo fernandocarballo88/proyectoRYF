@@ -10,12 +10,18 @@ width: 100%;
 color: map-get($estilos, colorLetra);
 grid-area: main;
 text-align: center;
+margin-bottom: 10vh;
 }
 .mainContacto{
     /*background-color: rgb(196, 34, 34);*/
     font-size: 20px;
     color: map-get($estilos, colorLetra);
-    grid-area: main;
-    height: 100vh;
+    text-align: center;
+    margin-bottom: 10vh;
+}
+
+.main404{
+    margin-bottom: 10vh;
+    text-align: center;
 }
 
