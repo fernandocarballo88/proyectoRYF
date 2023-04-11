@@ -46,6 +46,7 @@ body {
   font-size: 20px;
   color: whitesmoke;
   text-align: center;
+  margin-bottom: 40vh;
 }
 
 .mainGaleria {
@@ -109,12 +110,14 @@ body {
   list-style: none;
   margin: 0px;
   display: flex;
+  text-align: center;
 }
 .footer .linkNav2 {
   color: whitesmoke;
   text-decoration: none;
   font-size: 20px;
   margin: 10px;
+  text-align: center;
 }
 
 .fondo {

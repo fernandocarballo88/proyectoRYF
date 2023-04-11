@@ -83,13 +83,13 @@ margin: 50px;
     color: whitesmoke;
     font-size: 20px;
     margin: 10px;
+
 }
 
 .navegacion ul li{
     line-height: 40px;
     list-style: none;
     text-decoration: none;
-}
 
 .main{
         /*background-color: rgb(196, 34, 34);*/
@@ -104,6 +104,7 @@ margin: 50px;
     grid-area: main;
     text-align: center;
 }
+
 
 .carousel{
     width: 80vh;
@@ -130,6 +131,7 @@ margin: 50px;
     list-style: none;
     margin: 0px;
     display: flex;
+    text-align: center;
 }
 @media (max-width: 768px) {
         .navegacion ul li{
