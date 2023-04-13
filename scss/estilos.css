@@ -104,6 +104,19 @@ body {
     list-style: none;
     text-decoration: none;
   }
+
+  .underline::after{
+    content: "";
+    height: 5px;
+    width: 0;
+    background-color: whitesmoke;
+    display: inline-flex;
+    transition:  all 300ms;
+    }
+  
+    .underline:hover:after{
+      width: 100%;
+    }
 }
 .footer {
   background-color: rgba(85, 84, 84, 0.404);
@@ -175,4 +188,19 @@ body {
 
   .underline:hover:after{
     width: 100%;
+  }
+
+  @media (max-width: 768px) {
+    .underline::after{
+      content: "";
+      height: 5px;
+      width: 0;
+      background-color: whitesmoke;
+      display: inline;
+      transition:  all 300ms;
+      }
+    
+      .underline:hover:after{
+        width: 100%;
+      }
   }
