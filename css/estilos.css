@@ -166,3 +166,16 @@ margin: 50px;
     
 }
 */
+
+.underline::after{
+    content: "";
+    height: 4px;
+    width: 0;
+    background-color: red;
+    display: block;
+    transition:  all 300ms;
+    }
+  
+    .underline:hover:after{
+      width: 100%;
+    }

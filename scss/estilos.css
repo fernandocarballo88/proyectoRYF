@@ -163,3 +163,16 @@ body {
 .aside {
   background-color: rgb(216, 167, 34);
 }/*# sourceMappingURL=estilos.css.map */
+
+.underline::after{
+  content: "";
+  height: 5px;
+  width: 0;
+  background-color: whitesmoke;
+  display: block;
+  transition:  all 300ms;
+  }
+
+  .underline:hover:after{
+    width: 100%;
+  }
